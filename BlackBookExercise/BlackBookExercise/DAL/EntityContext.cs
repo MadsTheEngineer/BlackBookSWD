@@ -1,11 +1,8 @@
-using System.Collections.Generic;
-using BlackBookExercise;
+using BlackBookExercise.Models;
 
 namespace BlackBookExercise.DAL
 {
-    using System;
     using System.Data.Entity;
-    using System.Linq;
 
     public class EntityContext : DbContext
     {

@@ -88,6 +88,20 @@
     <Compile Include="ViewModels\ExchangeViewModel.cs" />
     <Compile Include="ViewModels\IShell.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="Views\DebitorsView.xaml.cs">
+      <DependentUpon>DebitorsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExchangesView.xaml.cs">
+      <DependentUpon>ExchangesView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\DebitorsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExchangesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ShellView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

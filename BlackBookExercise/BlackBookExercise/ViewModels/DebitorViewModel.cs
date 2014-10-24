@@ -1,6 +1,6 @@
 using Caliburn.Micro;
 
-namespace BlackBookExercise
+namespace BlackBookExercise.ViewModels
 {
     public class DebitorViewModel : PropertyChangedBase
     {

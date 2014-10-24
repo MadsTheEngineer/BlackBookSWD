@@ -1,4 +1,5 @@
 using BlackBookExercise;
+using BlackBookExercise.ViewModels;
 
 namespace BlackBookExercise {
     using System;
