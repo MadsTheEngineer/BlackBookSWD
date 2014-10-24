@@ -7,6 +7,6 @@ namespace BlackBookExercise.Models
         public string Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public ICollection<Exchange> Transactions { get; set; }
+        public virtual ICollection<Exchange> Transactions { get; set; }
     }
 }

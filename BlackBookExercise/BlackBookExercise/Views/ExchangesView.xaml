@@ -6,6 +6,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            
+        <DataGrid ItemsSource="{Binding Path=Exchanges}" CanUserAddRows="False" AutoGenerateColumns="True">
+        </DataGrid>
+
     </Grid>
 </UserControl>
